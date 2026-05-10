@@ -1,6 +1,6 @@
 # Stellas Neovim Config
 
-Config based on [lazyvim] (<https://www.lazyvim.org/>) nvim distro used for general purpose and (mostly)C++ programming.
+Config based on [lazyvim](<https://www.lazyvim.org/>) nvim distro used for general purpose and (mostly)C++ programming.
 
 ## Dependecies
 

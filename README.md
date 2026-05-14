@@ -6,4 +6,4 @@ Config based on [lazyvim](<https://www.lazyvim.org/>) nvim distro used for gener
 
 additional packages needed for some plugins
 *arch install script*
-`sudo pacman -S cmake clang composer python-pip npm php fd luarocks lua51 wget ripgrep`
+`sudo pacman -S cmake clang composer python-pip npm php fd luarocks lua51 wget ripgrep ast-grep markdownlint-cli2 stylua lazygit fzf imagemagick texlive-latex ghostscript kitty mermaid-cli`

@@ -13,7 +13,7 @@ Config based on [lazyvim](https://www.lazyvim.org/) nvim distro used for general
 - To-Do
 
 ---
-## Dependencies
+<h3 align="center">Dependencies</h3>
 
 additional packages needed for some plugins
 _arch install script_

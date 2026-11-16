@@ -5,6 +5,9 @@ return {
       marksman = {
         enabled = false,
       },
+      qmlls = {
+        mason = true,
+      },
     },
   },
 }

@@ -6,8 +6,10 @@
 Config based on [lazyvim](https://www.lazyvim.org/) nvim distro used for general purpose and (mostly)C++ programming.
 # Screenshots
 
-- To-Do
-
+![HomeScreen](./img/1home.png)
+![code](./img/2code.png)
+![CmakeIntegration](./img/3cmake.png)
+![Debugging](./img/4dbg.png)
 # Installation
 
 - To-Do

@@ -6,7 +6,8 @@ return {
         enabled = false,
       },
       qmlls = {
-        mason = true,
+        mason = false,
+        cmd = { "qmlls6" },
       },
     },
   },

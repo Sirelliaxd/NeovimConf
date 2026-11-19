@@ -17,6 +17,8 @@ Config based on [lazyvim](https://www.lazyvim.org/) nvim distro used for general
 ---
 <h3 align="center">Dependencies</h3>
 
+##### Arch-based distros:
+
 additional packages needed for some plugins
 _arch install script_
 `sudo pacman -S cmake clang composer python python-pip npm php fd luarocks lua51 wget ripgrep ast-grep markdownlint-cli2 stylua lazygit fzf imagemagick texlive-latex ghostscript kitty mermaid-cli arduino-cli arduino-language-server cargo lua51-dkjson`
@@ -24,3 +26,27 @@ _arch install script_
 `yay -S python313`
 
 `rustup default stable` - for assembly lsp
+
+--- 
+
+##### Debian based distros:
+
+```
+sudo apt update && sudo apt install -y \
+  cmake clang composer python3 python3-pip npm php \
+  fd-find luarocks lua5.1 liblua5.1-0-dev wget ripgrep \
+  lazygit fzf imagemagick texlive-latex-base ghostscript \
+  kitty arduino-cli arduino-language-server cargo
+```
+
+```
+sudo npm install -g @ast-grep/cli markdownlint-cli2 @mermaid-js/mermaid-cli
+```
+
+```
+cargo install stylua
+```
+
+```
+sudo luarocks --lua-version=5.1 install dkjson
+```
